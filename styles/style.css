@@ -57,3 +57,12 @@ h1,h2,p{
     border-radius: 25px;
     padding: 0 30px
 }
+
+.spending-chart{
+}
+
+.daily-bar{
+    background-color: var(--rojoPrimario);
+    margin-bottom: 3px;
+    height: 10px
+}
