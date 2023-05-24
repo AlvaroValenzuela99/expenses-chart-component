@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Hanken+Grotesk:wght@500;700;800&display=swap');
+:root{
+    --rojoPrimario: hsl(10, 79%, 65%);
+    --cyanPrimario: hsl(186, 34%, 60%);
+
+    --marronOscuro: hsl(25, 47%, 15%);
+    --marronMedio: hsl(28, 10%, 53%);
+    --crema: hsl(27, 66%, 92%);
+    --naranjaPalido: hsl(33, 100%, 98%);
+}
+
+body{
+    background-color: var(--crema);
+    margin: 0;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+}
+
+h1,h2,p{
+    margin: 0;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 50vh;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.balance{
+    background-color: var(--rojoPrimario);
+    color: white;
+    border-radius: 25px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+}
+
+.balance h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.balance p{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.spending{
+    background-color: white;
+    border-radius: 25px;
+    padding: 0 30px
+}
