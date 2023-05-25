@@ -59,10 +59,24 @@ h1,h2,p{
 }
 
 .spending-chart{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.dayExpense{
+    width: calc(100% / 7);
+    text-align: center;
 }
 
 .daily-bar{
     background-color: var(--rojoPrimario);
-    margin-bottom: 3px;
-    height: 10px
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.daily-bar:hover{
+    background-color: hsla(10, 79%, 65%, 0.5);
 }
